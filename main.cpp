@@ -35,7 +35,20 @@ void fun() {
 
 
 //problem 4
+     void fun1() {
+     float a, b;
+     cout << "enter ther value of a:";
+     cin >> a;
+     cout << "enter the value of b:";
+     cin >> b;
+     cout << "area is " << product (a, b) << endl;
+     cout << "perimeter is " << 2*(a+b )<< endl;
+ }
 
+// problem 5
+    int swap(int a1, int b1) {
+    return b1," ",a1;
+}
 
 
 int main() {
@@ -56,8 +69,16 @@ int main() {
 
      //problem 3
      fun();
-     */
 
+
+     //problem 4
+     fun1();
+
+     //problem 5
+     */
+     int x1,y1;
+    cin >> x1 >> y1;
+    cout << swap(x1, y1)<<endl;
 
      return 0;
  }
