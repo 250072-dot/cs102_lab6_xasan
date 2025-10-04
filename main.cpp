@@ -150,7 +150,7 @@ int Gdc(int num1,int num2) {
 int main() {
      //PROBLEM 1
 
- /*    float x,y;
+    float x,y;
      cout << "Enter x: ";
      cin >> x;
      cout << "Enter y: ";
@@ -224,7 +224,7 @@ cin >> son;
      //problem 13
     leap();
 
-    */
+
 
      //problem 14
  float a, b,c;
