@@ -142,7 +142,11 @@ int Gdc(int num1,int num2) {
          }
      }
 
-
+    //problem 14
+     float futinva(float invam,float monint, float numberye) {
+     float over=invam*pow((1+monint),numberye);
+     return over;
+ }
 int main() {
      //PROBLEM 1
 
@@ -223,7 +227,10 @@ cin >> son;
     */
 
      //problem 14
-
+ float a, b,c;
+     cout << "enter 3 numbers :";
+     cin >> a >> b >> c;
+     cout << futinva(a,b,c)<<endl;
 
      return 0;
 
