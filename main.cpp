@@ -147,10 +147,19 @@ int Gdc(int num1,int num2) {
      float over=invam*pow((1+monint),numberye);
      return over;
  }
+      //problem 15
+void printASCII(char ch1, char ch2, int numberPerLine) {
+
+
+    for (char ch = ch1; ch <= ch2; ch++) {
+        cout << ch<<" ";
+        (int(ch)%numberPerLine==0)? cout<<"\n" : cout<<" ";
+    }
+}
 int main() {
      //PROBLEM 1
 
-    float x,y;
+ /*   float x,y;
      cout << "Enter x: ";
      cin >> x;
      cout << "Enter y: ";
@@ -231,7 +240,10 @@ cin >> son;
      cout << "enter 3 numbers :";
      cin >> a >> b >> c;
      cout << futinva(a,b,c)<<endl;
+ */
 
+     //problem 15
+     printASCII('Z','f',6);
      return 0;
 
  }
